@@ -4,7 +4,7 @@ This notebook demonstrates the implementation of a reinforcement learning-based 
 
 **At a basic level, the notebook does the following:**
 
-1. **Sets up the environment:** Installs necessary libraries (`stable-baselines3`, `shimmy`) and checks for GPU availability.
+1. **Sets up the environment:** Installs necessary libraries and checks for GPU availability.
 2. **Loads and preprocesses financial data:** Reads historical market data from a CSV file, scales numerical features, and engineers features for the model. The data is then split into training and testing sets.
 3. **Defines a Transformer model:** Creates a custom Transformer model architecture specifically designed for financial trading. This model will learn to predict buy/sell signals based on market data patterns.
 4. **Defines a trading environment:** Sets up a simulated trading environment using OpenAI Gym, allowing the agent to interact with the market and receive rewards based on its trading decisions.
